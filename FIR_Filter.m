@@ -6,3 +6,7 @@ Has=tf(B,A);                 %Transfer Function
 
 [Bdigital,Adigital]=bilinear(B,A,1);  %Bilinear Transfomr
 Hz=tf(Bdigital,Adigital,1);
+
+
+
+
